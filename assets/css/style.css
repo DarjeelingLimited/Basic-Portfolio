@@ -2,12 +2,15 @@
     float: left;
 }
 
-br{
-    background-color: grey;
+#topname{
+    background-color: #4aaaa5;
+    color:white;
+    padding:10px;
+    width: 20%;
+    text-align: center;
 }
 
-.topnav{
-    .topnav a {
+.topnav {
         float: right;
         color: #f2f2f2;
         text-align: right;
@@ -23,9 +26,34 @@ p{
 footer{
     display: block;
     background-color: #666666;
+    border-top: 8px solid #4aaaa5;
 }
 
-.tealbox{
+.regularfont {
+    color: #777777:
+}
+
+.mainheaderbackground, .maincontentbackground {
+    color: #ffffff;
+    font-family: 'Georgia',Times, Times New Roman, serif;
+}
+
+.mainheaderborder{
+    color: #cccccc;
+}
+
+footer{
+    background-color: #666666;
+}
+
+.maincontentborder{
+    color: #dddddd;
+}
+
+.divportfoliobox{
+    border: solid 1px grey;
+}
+
+#pagetitle{
     color: #4aaaa5;
-    width: 20%;
 }
