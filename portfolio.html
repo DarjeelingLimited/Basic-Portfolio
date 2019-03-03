@@ -3,58 +3,76 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
+        <title>Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-        <script src="main.js"></script>
-
-        <title>My Portfolio</title>
         
     </head>
 
-
-    <body>
-
-        <!--Name at top of the page-->    
+   <!--Name at top of the page and Right hand navigation-->   
+   <div class="topnav">
         <div id="topname">
-                <h1>Hilary Scott </h1>
+                Hilary Scott
+            </div>
+            <a class="menulink" href="../Basic-Portfolio/index.html">About Me |</a>
+            <a class="menulink" href="../Basic-Portfolio/portfolio.html">Portfolio |</a>
+            <a class="menulink" href="../Basic-Portfolio/contact.html">Contact</a>
+    </div>
+
+
+<!--Grey page area-->
+
+<div id="backgroundimage">
+<br>
+    <div id="innercontent">
+            <!--Page title-->   
+            <h1 id="pagetitle">Portfolio</h1>
+
+            <!--Table of portfolio images-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/Placeholder1.PNG" width="200px" height="175px">
+                    <p class="piclabel">Project 1</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/images/Placeholder2.PNG" width="200px" height="175px">
+                    <p class="piclabel">Project 2</p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
         </div>
-
-         <!--Right hand navigation-->   
-        <div class="topnav">
-            <a href="../Basic-Portfolio/index.html">About Me</a>
-            <a href="../Basic-Portfolio/portfolio.html">Portfolio</a>
-            <a href="../Basic-Portfolio/contact.html">Contact</a>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/Placeholder3.PNG" width="200px" height="175px">
+                    <p class="piclabel">Project 3</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="assets/images/Placeholder3.PNG" width="200px" height="175px">
+                    <p class="piclabel">Project 4</p>
+                </div>
+            </div>
         </div>
-
-
-
-        <!--Page title-->   
-        <h1 id="pagetitle">Portfolio</h1>
-
-        <!--Table of portfolio images-->
         
-        <div width="5px" height="5px">
-            <img src="assets/images/Placeholder1.PNG">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/Placeholder1.PNG" width="200px" height="175px">
+                    <p class="piclabel">Project 5</p>
+                </div>
+            </div>
         </div>
+    </div>
+<br/>
+<br/>
+<br/>
+<br/>
 
-        <div width="5px" height="5px">
-            <img src="assets/images/Placeholder2.PNG">
-        </div>
-
-        <div width="5px" height="5px">
-            <img src="assets/images/Placeholder3.PNG">
-        </div>
-            
-        <div width="5px" height="5px">
-             <img src="assets/images/Placeholder4.PNG">
-        </div>
-
-        <div width="5px" height="5px">
-                <img src="assets/images/Placeholder1.PNG">
-        </div>
-
-    </body>
+</div>  
 
  <footer></footer>   
 </html>
